@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="zxx">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/common.css">
+		<link rel="stylesheet" href="css/style.css">
+		<title>Lesson_16</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="header"></header>
+			<main class="page">
+				<section class="page__form main-page">
+					<div class="main-page__container">
+						<div class="main-page__body">
+							<div class="main-page__first-column column-first">
+								<img src="img/illustration.svg" alt="illustration" class="column-first__image">
+							</div>
+								<div class="main-page__second-column column-second">
+									<h3 class="column-second__subtitle">Any questions?</h3>
+									<h2 class="column-second__title">Drop us a line</h2>
+										<form action="#" method="POST" class="column-second__form form-send">
+											<div class="form-send__box">
+												<div class="form-send__line">
+													<label for="name" class="form-send__label">First Name*</label>
+													<input id="name" required autocomplete="off" type="text" name="name" placeholder="Your first name" class="form-send__input">
+												</div>
+												<div class="form-send__line">
+													<label for="name" class="form-send__label">Last  Name*</label>
+													<input id="name" required autocomplete="off" type="text" name="name" placeholder="Your last name" class="form-send__input">
+												</div>
+												<div class="form-send__line">
+													<label class="form-send__label" for="email-01">Email*</label>
+													<input class="form-send__input" autocomplete="off" placeholder="Your working email" name="mail" type="email" id="email-send">
+												</div>
+												<div class="form-send__line">
+													<label class="form-send__label" for="email-01">Phone</label>
+													<input class="form-send__input" autocomplete="off" placeholder="Your phone number" name="phone" type="tel" id="phone-send">
+												</div>
+												<div class="form-send__message">
+													<label  for="name" class="form-send__label">Message*</label>
+													<textarea required autocomplete="off" name="message" id="send-message" class="form-send__message"></textarea>
+												</div>
+											</div>
+										</form>
+										<div class="questions__send send">
+											<div class="send__checkbox checkbox">
+												<input class="form-send__checkbox--input" name="agree" type="checkbox" value="agree" checked id="checkbox_send">
+												<label class="form-send__checkbox--label" for="checkbox_send"> 
+													<span class="checkbox__text">
+													I agree to receive communications from Createx Online School
+													</span>
+												</label>
+											</div>
+												<button class="questions__button button">
+													<span>Send message</span>
+												</button>
+										</div>
+								</div>
+						</div>
+					</div>
+				</section>
+				<section class="epx">
+					<form class="form" action="https://jsonplaceholder.typicode.com/posts" method="POST">
+						<div class="form__line">
+								<label class="form__label" for="">Я окремий підпис</label>
+						</div>
+						<div class="form__line">
+							<label class="form__label" for="age-01">Введіть ваш вік</label>
+							<input class="form__input" id="age-01" required autocomplete="off" placeholder="Введіть ваш вік" name="age" type="text">
+						</div>
+						<div class="form__line">
+							<label class="form__label" for="age-01">Введіть ваш E-mail</label>
+							<input class="form__input" required autocomplete="off" placeholder="Введіть ваш E-mail" name="mail" type="text">
+						</div>
+						<div class="form__line">
+							<input class="form__input" required name="token" value="gjghghghgh" type="hidden">
+						</div>
+						<div class="form__line">
+							<input class="form__input" required autocomplete="off" placeholder="Введіть ваш телефон" name="phone" type="tel">
+						</div>
+						<div class="form__line">
+							<input class="form__input" autocomplete="off" placeholder="Введіть ваш пароль" required name="pass" type="password">
+						</div>
+						<div class="form__line">
+							<input class="form__input" autocomplete="off" placeholder="Введіть ваше число" required name="digi" type="number">
+						</div>
+						<div class="form__line">
+							<input class="form__input" autocomplete="off" required name="date" type="date">
+						</div>
+						<div class="form__line">
+							<input class="form__input" autocomplete="off" name="range" type="range">
+						</div>
+						<div class="form__line">
+							<input class="form__input-chk" required autocomplete="off" name="car" type="checkbox">
+							Є авто?
+						</div>
+						<div class="form__line">
+							<div class="form__title">Улюблена тваринка</div>
+							<input checked class="form__input form__input_radio" id="pet-01"  required autocomplete="off" name="pet" type="radio">
+							<label class="form__label" for="pet-01">Кішка</label>
+						</div>
+						<div class="form__radio">
+							<input class="form__input form__input_radio" id="pet-02" required autocomplete="off" name="pet" type="radio">
+							<label class="form__label" for="pet-02">Собака</label>
+						</div>
+						<div class="form__line">
+							<input class="form__input" name="file" type="file">
+						</div>
+						<div class="form__line">
+							<textarea autocomplete="off" name="message" class="form__area"></textarea>
+						</div>
+						<div class="form__line">
+							<label  for="name" class="form__label">Введіть ваше ім'я</label>
+							<input id="name" class="form__input" required autocomplete="off" placeholder="Введіть ваше ім'я" name="name" type="text">
+						</div>
+						<div class="form__line">
+							<label  for="name" class="form__label">Введіть ваш пароль</label>
+							<input id="name" class="form__input" required autocomplete="off" placeholder="Введіть ваш пароль" name="pass" type="password">
+						</div>
+						<div class="form__line">
+							<button class="form__button">Надіслати</button>
+						</div>
+					</form>
+				</section> 
+			</main>
+			<footer class="footer"></footer>
+		</div>
+	</body>
+</html>
