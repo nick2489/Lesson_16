@@ -25,12 +25,12 @@
 										<form action="#" method="POST" class="column-second__form form-send">
 											<div class="form-send__box">
 												<div class="form-send__line">
-													<label for="name" class="form-send__label">First Name*</label>
-													<input id="name" required autocomplete="off" type="text" name="name" placeholder="Your first name" class="form-send__input">
+													<label for="first send" class="form-send__label">First Name*</label>
+													<input id="first send" required autocomplete="off" type="text" name="first send" placeholder="Your first name" class="form-send__input">
 												</div>
 												<div class="form-send__line">
-													<label for="name" class="form-send__label">Last  Name*</label>
-													<input id="name" required autocomplete="off" type="text" name="name" placeholder="Your last name" class="form-send__input">
+													<label for="last send" class="form-send__label">Last  Name*</label>
+													<input id="last send" required autocomplete="off" type="text" name="last send" placeholder="Your last name" class="form-send__input">
 												</div>
 												<div class="form-send__line">
 													<label class="form-send__label" for="email-01">Email*</label>
@@ -66,7 +66,7 @@
 				<section class="epx">
 					<form class="form" action="https://jsonplaceholder.typicode.com/posts" method="POST">
 						<div class="form__line">
-								<label class="form__label" for="">Я окремий підпис</label>
+								<label class="form__label" for="sign">Я окремий підпис</label>
 						</div>
 						<div class="form__line">
 							<label class="form__label" for="age-01">Введіть ваш вік</label>
@@ -77,7 +77,7 @@
 							<input class="form__input" required autocomplete="off" placeholder="Введіть ваш E-mail" name="mail" type="text">
 						</div>
 						<div class="form__line">
-							<input class="form__input" required name="token" value="gjghghghgh" type="hidden">
+							<input class="form__input" name="token" value="gjghghghgh" type="hidden">
 						</div>
 						<div class="form__line">
 							<input class="form__input" required autocomplete="off" placeholder="Введіть ваш телефон" name="phone" type="tel">
@@ -95,16 +95,16 @@
 							<input class="form__input" autocomplete="off" name="range" type="range">
 						</div>
 						<div class="form__line">
-							<input class="form__input-chk" required autocomplete="off" name="car" type="checkbox">
+							<input class="form__input-chk" name="car" type="checkbox">
 							Є авто?
 						</div>
 						<div class="form__line">
 							<div class="form__title">Улюблена тваринка</div>
-							<input checked class="form__input form__input_radio" id="pet-01"  required autocomplete="off" name="pet" type="radio">
+							<input checked class="form__input form__input_radio" id="pet-01" name="pet" type="radio">
 							<label class="form__label" for="pet-01">Кішка</label>
 						</div>
 						<div class="form__radio">
-							<input class="form__input form__input_radio" id="pet-02" required autocomplete="off" name="pet" type="radio">
+							<input class="form__input form__input_radio" id="pet-02" name="pet" type="radio">
 							<label class="form__label" for="pet-02">Собака</label>
 						</div>
 						<div class="form__line">
@@ -114,8 +114,8 @@
 							<textarea autocomplete="off" name="message" class="form__area"></textarea>
 						</div>
 						<div class="form__line">
-							<label  for="name" class="form__label">Введіть ваше ім'я</label>
-							<input id="name" class="form__input" required autocomplete="off" placeholder="Введіть ваше ім'я" name="name" type="text">
+							<label  for="form-name" class="form__label">Введіть ваше ім'я</label>
+							<input id="form-name" class="form__input" required autocomplete="off" placeholder="Введіть ваше ім'я" name="form-name" type="text">
 						</div>
 						<div class="form__line">
 							<label  for="name" class="form__label">Введіть ваш пароль</label>
