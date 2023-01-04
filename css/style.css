@@ -44,10 +44,7 @@ body{
 	max-width: 100%;
 	flex-basis: 435px;
 }
-.main-page__second-column {
-	
-
-}
+.main-page__second-column {}
 .column-second {
 	flex: 0 1 64.6%;
 }
