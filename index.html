@@ -22,30 +22,29 @@
 								<div class="main-page__second-column column-second">
 									<h3 class="column-second__subtitle">Any questions?</h3>
 									<h2 class="column-second__title">Drop us a line</h2>
-										<form action="#" method="POST" class="column-second__form form-send">
-											<div class="form-send__box">
-												<div class="form-send__line">
-													<label for="first-send" class="form-send__label" >First Name*</label>
-													<input id="first-send" required autocomplete="off" type="text" name="first send" placeholder="Your first name" class="form-send__input">
-												</div>
-												<div class="form-send__line">
-													<label for="last-send" class="form-send__label" >Last  Name*</label>
-													<input id="last-send" required autocomplete="off" type="text" name="last send" placeholder="Your last name" class="form-send__input">
-												</div>
-												<div class="form-send__line">
-													<label for="email-send" class="form-send__label" >Email*</label>
-													<input id="email-send" class="form-send__input" autocomplete="off" placeholder="Your working email" name="mail" type="email">
-												</div>
-												<div class="form-send__line">
-													<label for="phone-send" class="form-send__label" >Phone</label>
-													<input id="phone-send" class="form-send__input" autocomplete="off" placeholder="Your phone number" name="phone" type="tel">
-												</div>
-												<div class="form-send__message">
-													<label  for="name" class="form-send__label">Message*</label>
-													<textarea required autocomplete="off" name="message" id="send-message" class="form-send__message"></textarea>
-												</div>
+									<form action="#" class="column-second__form form-send" method="POST">
+										<div class="form-send__box">
+											<div class="form-send__line">
+												<label for="first-send" class="form-send__label" >First Name*</label>
+												<input id="first-send" required autocomplete="off" type="text" name="first send" placeholder="Your first name" class="form-send__input">
 											</div>
-										</form>
+											<div class="form-send__line">
+												<label for="last-send" class="form-send__label" >Last  Name*</label>
+												<input id="last-send" required autocomplete="off" type="text" name="last send" placeholder="Your last name" class="form-send__input">
+											</div>
+											<div class="form-send__line">
+												<label for="email-send" class="form-send__label" >Email*</label>
+												<input id="email-send" class="form-send__input" autocomplete="off" placeholder="Your working email" name="mail" type="email">
+											</div>
+											<div class="form-send__line">
+												<label for="phone-send" class="form-send__label" >Phone</label>
+												<input id="phone-send" class="form-send__input" autocomplete="off" placeholder="Your phone number" name="phone" type="tel">
+											</div>
+											<div class="form-send__message">
+												<label  for="name" class="form-send__label">Message*</label>
+												<textarea required autocomplete="off" name="message" id="send-message" class="form-send__message"></textarea>
+											</div>
+										</div>
 										<div class="questions__send send">
 											<div class="send__checkbox checkbox">
 												<input class="form-send__checkbox--input" name="agree" type="checkbox" value="agree" checked id="checkbox_send">
@@ -55,10 +54,11 @@
 													</span>
 												</label>
 											</div>
-												<button class="questions__button button" type="reset">
+												<button type="submit" class="questions__button button">
 													<span>Send message</span>
 												</button>
 										</div>
+									</form>
 								</div>
 						</div>
 					</div>
